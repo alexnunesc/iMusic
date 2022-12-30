@@ -1,0 +1,88 @@
+.paiPai {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+
+  margin-top: 20%;
+}
+
+.conteinerLogin {
+  align-items: center;
+  border-radius: 10px;
+ /*  background-color: rgb(27, 126, 133); */
+  color: white;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  min-width: 42vw;
+  gap: 20px;
+  border: none;
+}
+
+.fieldName {
+  align-items: center;
+  border-radius: 10px;
+  background-color: rgb(27, 126, 133);
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5px;
+  min-height: 20vw;
+  min-width: 40vw;
+  font-size: larger;
+  gap: 10px;
+  box-shadow: 1px 1px 10px 2px rgba(255, 255, 255, 0.466) ;
+}
+
+.fieldName input {
+  margin: 1px
+};
+
+.fieldName button {
+  margin: 20px
+};
+
+.h1iMusic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 550%;
+  color: white;
+}
+
+.sic:hover {
+  transform: scale(1.2) rotate(5deg) translate(1px, -10%);
+  cursor: pointer;
+  transform: matrix(-8);
+  transition: 1000ms;
+  
+}
+
+.paiPai input {
+  border-radius: 10px;
+  height: 30px;
+  border: none;
+}
+
+.paiPai button {
+  border-radius: 10px;
+  height: 30px;
+  width: 50px;
+  border: none;
+}
+
+@media only screen and (max-width: 750px){
+  .paiPai {
+    margin-top: 70%;
+  }
+  
+}

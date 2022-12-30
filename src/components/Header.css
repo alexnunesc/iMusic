@@ -1,0 +1,57 @@
+.conteinerHeader {
+  align-items: center;
+  border-radius: 10px;
+  background-color: rgb(99, 27, 133);
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  height: 50px;
+  padding: 5px;
+  width: 90vw;
+}
+
+.header {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+.header h1 {
+  background-color: rgba(0, 0, 0, 0.267);
+  border-radius: 10px 0px;
+  font-size: small;
+  padding: 5px;
+}
+
+.navHeader {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.navLink {
+  background-color: rgba(0, 0, 0, 0.267);
+  border-radius: 10px 0px;
+  box-shadow: 1px 1px 5px rgb(0, 0, 0);
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+}
+
+
+.navLink:hover {
+  box-shadow: 1px 1px 5px rgb(255, 255, 255);
+}
+
+@media only screen and (max-width: 600px){
+  .header {
+    justify-content: center;
+    gap: 40px;
+  }
+  .header h1 {
+    display: none;
+  }
+}

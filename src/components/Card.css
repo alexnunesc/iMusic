@@ -1,0 +1,21 @@
+a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: #fff;
+  gap: 5px;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.295);
+  padding: 1em;
+  border-radius: 5px;
+  height: 200px;
+}
+
+.container a:hover {
+  color: salmon;
+  gap: 5px;
+  transform: translateY(-10px);
+}
+

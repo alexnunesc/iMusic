@@ -1,0 +1,106 @@
+.conteinerProfile {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.paiInteno {
+  align-items: center;
+  border-radius: 10px;
+  background-color: rgb(99, 27, 133);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 5px;
+  width: 90vw;
+}
+
+.conteinerInterno {
+  align-items: center;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  width: 90vw;
+}
+
+.divImgName {
+  align-items: center;
+  border-radius: 10px;
+  background-color: rgb(99, 27, 133);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px;
+  min-width: 42vw;
+}
+
+.divText {
+  align-items: center;
+  border-radius: 10px;
+  background-color: rgb(27, 126, 133);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  min-width: 42vw;
+  gap: 50px;
+}
+
+img {
+  border-radius: 10px;
+}
+
+.name {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 90vw;
+}
+
+h2 {
+  min-width: 42vw;
+}
+
+.description {
+
+}
+
+.email {
+
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.267);
+  border-radius: 10px 0px;
+  box-shadow: 1px 1px 5px rgb(0, 0, 0);
+  padding: 5px;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 600px){
+  .conteinerProfile {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .conteinerInterno {
+    flex-direction: column;
+    gap: 20px;
+    padding: 5px;
+  }
+
+  .name {
+    justify-content: center;
+  }
+  
+}

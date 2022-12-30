@@ -1,0 +1,41 @@
+.cadastraConteiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px;
+}
+
+.cadastraFieldeset {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.1rem;
+  width: 40rem;
+  padding: 5px;
+}
+
+.cadastraFieldeset label {
+  display: flex;
+  margin: 10px;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 5px;
+}
+
+.cadastraFieldeset input {
+  width: 50%;
+}
+
+.cadastraFieldeset p {
+  width: 40%;
+}
+
+
+.b:hover {
+  transform: scale(1.2) rotate(5deg) translate(1px, -10%);
+  cursor: pointer;
+  transform: matrix(-8);
+  transition: 1000ms;
+  
+}
