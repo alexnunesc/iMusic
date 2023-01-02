@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Carregando from '../components/Carregando';
 import Header from '../components/Header';
-import { getUsers } from '../services/teste';
 import { getUser } from '../services/userAPI';
 import './Profile.css';
 
