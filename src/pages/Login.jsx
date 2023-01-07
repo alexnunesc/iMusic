@@ -111,16 +111,6 @@ export default class Login extends Component {
           </button>)
           : (
             <div className="conteinerLogin" data-testid="page-login">
-              <div>
-                <button
-                  type="button"
-                  disabled={ !btnDis }
-                  onClick={ this.redirect }
-                >
-                  Cadastra
-
-                </button>
-              </div>
               <fieldset className="fieldName">
                 <legend>Login:</legend>
                 <input
@@ -135,20 +125,32 @@ export default class Login extends Component {
                 <input
                   type="text"
                   name="senha"
-                  placeholder="Digite ssenha"
+                  placeholder="Digite senha"
                   value={ senha }
                   onChange={ this.handleChange }
                 />
 
-                <button
-                  type="button"
-                  data-testid="login-submit-button"
-                  disabled={ btnDis }
-                  onClick={ this.handleFncs }
-                >
-                  Entrar
+                <div className="btnLogin">
+                  <button
+                    className="btnEntrar"
+                    type="button"
+                    data-testid="login-submit-button"
+                    disabled={ btnDis }
+                    onClick={ this.handleFncs }
+                  >
+                    Entrar
 
-                </button>
+                  </button>
+                  <button
+                    className="btnCadastrar"
+                    type="button"
+                    disabled={ !btnDis }
+                    onClick={ this.redirect }
+                  >
+                    Cadastrar
+
+                  </button>
+                </div>
                 { carregar && <Carregando /> }
                 {/* se carregar fo verdade, exibir o Carregando */}
               </fieldset>

@@ -10,10 +10,12 @@ import ProfileEdit from './pages/ProfileEdit';
 import NotFound from './pages/NotFound';
 /* import Edit from './components/Edit'; */
 
+import './pages/Login.css';
+
 class App extends React.Component {
   render() {
     return (
-      <div>
+      <div className="teste1">
         <BrowserRouter>
           <Switch>
             <Route exact path="/" component={ Login } />
